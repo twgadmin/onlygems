@@ -1,0 +1,51 @@
+.cardhedger-card-description {
+    box-shadow: 1px 1px 5px;
+    padding: 10px;
+    min-width: 699px;
+}
+
+.labl > input{ /* HIDE RADIO */
+    visibility: hidden; /* Makes input not-clickable */
+    position: absolute; /* Remove input from document flow */
+}
+.labl > input + div{ /* DIV STYLES */
+    cursor:pointer;
+    border:2px solid transparent;
+}
+.labl > input:checked + div{ /* (RADIO CHECKED) DIV STYLES */
+    background-color: #f4f6f9;
+    border: 1px solid rgb(63, 63, 63);
+}
+
+.table-cards-list tbody tr td {
+    border:none;
+}
+
+.error {
+    color: #d60000;
+    /* margin-bottom: 20px; */
+}
+
+input.error {
+    border : 1px solid #d60000;
+}
+
+.no-padd {
+    padding: 0;
+}
+
+.card-desc td {
+    height: 10px;
+}
+
+.card-desc td:first-child {
+    width: 110px;
+}
+
+.card-list-modal-submit-btn, .card-list-modal-cancel-btn {
+    width: 220px;
+}
+
+#cards-list-modal .modal-content {
+    width: 730px;
+}

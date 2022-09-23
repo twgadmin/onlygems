@@ -1,0 +1,1 @@
+<span data-href="{!! asset('tasks') !!}" id="export" class="btn btn-success btn-sm" onclick="exportTasks(event)">Export</span>
